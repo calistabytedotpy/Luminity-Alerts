@@ -11,19 +11,15 @@ winget install -e --id Python.Python.3.12
 Close PowerShell and open it again, then:
 ```
 py -m pip install pygame
-py nws_alert_notifier_v8.py
-```
+
 
 ### Linux (Ubuntu / Debian)
 ```
 sudo apt update && sudo apt install -y python3 python3-tk python3-pygame espeak-ng pulseaudio-utils ffmpeg
-python3 nws_alert_notifier_v8.py
-```
+
 
 ### macOS (needs Homebrew)
 ```
 brew install python python-tk && python3 -m pip install --break-system-packages pygame
-python3 nws_alert_notifier_v8.py
-```
 
 Voice and sounds use your OS's built-in tools on Windows and Mac. Linux needs `espeak-ng` for the voice, which the command above installs.
